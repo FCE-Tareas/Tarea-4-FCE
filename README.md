@@ -6,7 +6,7 @@
 
 General
 
-Analizar circuitos eléctricos complejos en una combinación de conexiones en serie y en paralelo, mediante métodos de análisis de corriente y voltaje de Kirchhoff, en la cual se puedan aclarar los conceptos del comportamiento de la corriente en esta clase de circuitos, para entender y las características de un circuito electrónico.
+* Analizar circuitos eléctricos complejos en una combinación de conexiones en serie y en paralelo, mediante métodos de análisis de corriente y voltaje de Kirchhoff, en la cual se puedan aclarar los conceptos del comportamiento de la corriente en esta clase de circuitos, para entender y las características de un circuito electrónico.
 
 Específicos
 
