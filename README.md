@@ -349,6 +349,233 @@ Efecto de carga I2=(9 -7.4)/9*100%=18 %
 
 Efecto de carga I3=(15.6 -12.2)/15.6*100%=22.3%
 
+EJERCICIOS CAPÍTULO VIII
+
+1.  Encuentre el voltaje VS para el circuito de la figura 8-64.
+
+ ![image](https://user-images.githubusercontent.com/85209614/125578483-58760299-43e8-4fcc-be92-154796e4af86.png)
+
+(Vs - 20)/6 = 3
+
+Vs – 20 = 18
+
+Vs = 38V
+
+3. Vea el circuito de la figura 8-66: 
+
+a. Encuentre la corriente I3. 
+
+b. Determine los voltajes VS y V1.
+
+![image](https://user-images.githubusercontent.com/85209614/125578555-9ecbf016-a8ac-4c7a-b259-45d7a7614bd3.png)
+
+Is = 20mA     =>     I3 = 20 * (300) / (300 + 200)      =>      I3 = 12mA
+
+V1 = Is * R1 = 0.02A * 100   =>    V1 = 2V
+
+-Vs +V1 +V3 = 0     =>     -Vs + 2 + 0.012 * 200 = 0     =>     Vs = 4.4V
+
+5. Para el circuito de la figura 8-68 encuentre las corrientes I1 e I2.
+
+![image](https://user-images.githubusercontent.com/85209614/125578849-479ebb12-dc3b-4197-9000-4ac6aff7545c.png)
+
+I3 = 15 / 50     =>    I3 = 300uA   ;    I4 = 15 / 150     =>     I4 = 100uA
+
+I1 = 100uA + 300uA    =>    I1 = 400uA
+
+I2 = 100uA + 100uA + 300uA    =>    I2 = 500uA
+
+7. Verifique que la potencia suministrada por las fuentes es igual a la suma de las potencias disipadas por los resistores en el circuito de la figura 8-68.
+
+![image](https://user-images.githubusercontent.com/85209614/125578949-39b8cff9-64ae-4539-b4d9-86f199ca97fc.png)
+
+I1 = 400uA  ;   I2 = 500uA  ;  I3 = 300uA  ;  I4 = 100uA
+
+P1 = 15 * 500uA + 15 * (-100uA) = 6mW
+
+P2 = 100uA^2 * 150k + 300uA^2 *50K = 6mW
+
+9. Convierta cada fuente de voltaje de la figura 8-70 en su fuente de corriente equivalente.
+
+![image](https://user-images.githubusercontent.com/85209614/125579063-8c70e311-0940-4c4e-b547-3e5e142bd16b.png)
+
+I = 5 / 20   =>   I = 0.25A
+
+I = 25 / 2k    =>     I = 12.5mA
+
+11. Vea el circuito de la figura 8-72: 
+
+a. Encuentre la corriente a través del resistor de carga con la regla del divisor de corriente. 
+
+b. Convierta la fuente de corriente en su fuente de voltaje equivalente y determine, otra vez, la corriente a través de la carga.
+
+![image](https://user-images.githubusercontent.com/85209614/125579161-91e81b65-a47f-4547-a6e7-804f5b888d77.png)
+
+I1 = 8A * 450 / 450 + 50    =>   I1 = 7.2A
+
+V = 8A * 450     =>     V = 3600V
+
+I1 = 3600V / 500ohm      =>     I1 = 7.2A
+
+13. Vea el circuito de la figura 8-74: 
+
+a. Convierta la fuente de corriente y el resistor de 330 Ω en su fuente de voltaje equivalente. 
+
+b. Encuentre la corriente I a través de RL. 
+
+c. Determine el voltaje Vab.
+
+![image](https://user-images.githubusercontent.com/85209614/125579259-e91be7e1-89b0-44db-a4b7-0daaec809c80.png)
+
+a)	V = 65mA * 330ohm = 21.45V
+
+b)	-21.45V + 330I + 470I + 16V + 100I = 0     =>    I = 5.45 / 900 = 6.06mA
+
+c)	Vab = 6.06mA * 100ohm = 0.606V
+
+15. Encuentre el voltaje V2 y la corriente I1 para el circuito de la figura 8-76.
+
+![image](https://user-images.githubusercontent.com/85209614/125579344-fd6c65aa-0638-4fec-9d98-c52e46e318f6.png)
+
+IT = I2 – I1 = 100mA – 50mA = -50mA
+
+Req = 1 / (1 / 3kΩ) + (1 / 6kΩ) + (1 / 8kΩ) = 1.6kΩ
+
+VT = -5mA * 1.6KΩ = -80V
+
+VT = VR1 = VR2 = VR3 = -80V
+
+I1 = (1.6kΩ / 3kΩ) * -50mA = -26.7mA
+
+17. Para el circuito de la figura 8-78 convierta la fuente de corriente y el resistor de 2.4 k  en una fuente de voltaje y calcule el voltaje Vab y la corriente I3.
+
+![image](https://user-images.githubusercontent.com/85209614/125579424-0ee47782-c053-489a-8a59-c615fa2a0c1f.png)
+
+V2 = 3mA * 2.4kΩ = 7.2V
+
+Veq = V – V2 = 8V – 7.2V = 0.8V
+
+Req = 1.6kΩ + 2.4kΩ + 2kΩ = 6kΩ
+
+VR2 = (2.4kΩ / 6kΩ) * 0.8V = 0.32V
+
+Vab = V2 + VR2 = 7.2V + 0.32V = 7.52V
+
+Por sentido del circuito: Vab = -7.52V
+
+IT = I3 = 0.8V / 6kΩ = 0.133mA
+
+19. Escriba las ecuaciones de corriente de rama para el circuito de la figura 8-79 y encuentre las corrientes de rama mediante determinantes.
+
+![image](https://user-images.githubusercontent.com/85209614/125579521-c613b238-0fd3-4609-b8f4-991c786f6fb9.png)
+
+Lazo 1 :  15V – (30Ω)I1 + (6Ω)I2 = 0V
+                
+                  30Ω I1 - 6Ω I2 = 15V (1)
+
+Lazo 2 :  5V – (20Ω) I3 – (6Ω) I2 = 0V
+               
+                   -6Ω I2 - 20Ω I3 = -5V (2)
+
+I3 = I1 + I2 (3)
+
+D = 900
+
+I1 = 420 / 900 = 0.467A 
+
+I2 = -150 / 900 = -0.167A 
+
+I3 = 270 / 900 = 0.3A 
+
+21. Escriba las ecuaciones de corriente de rama para el circuito de la figura 8-81 y encuentre la corriente I2.
+
+![image](https://user-images.githubusercontent.com/85209614/125579628-e6739a86-6eab-4b29-adcf-606730d4e334.png)
+
+Lazo 1:  20.5V – (8.2) I2 – (6.2 Ω) I2 + (5 Ω) I1 - 10V = 0V
+                  
+                      14.4 Ω I2 - 5 Ω I1 = 10.5V    (1)
+
+Lazo 2:  10V – (4.7 Ω) I3 – (5 Ω) I2 = 0V
+
+                     -5 Ω I1 – 4.7 Ω I3 = -10V   (2)
+     
+                           I3 = I1 + I2   (3)
+
+D = 163.18
+
+I2 = 151.85 / 163.18 = 0.931A 
+
+Por el sentido de la corriente: I2 = -0.931A 
+
+23. Vea el circuito de la figura 8-83: 
+
+a. Escriba las ecuaciones de corriente de rama. 
+
+b. Encuentre la corriente I2. 
+
+c. Determine el voltaje Vab.
+
+![image](https://user-images.githubusercontent.com/85209614/125579788-4b866d5f-1fd7-4030-ad9b-b88c87d0d939.png)
+
+a)
+
+-24 Ω + 2I1 + 6I1 – 10I3 = 0                                 4I2 + 10I3 – 16V = 0
+
+8I1 – 10I3 = 24                                                       4I2 + 10I3 = 16
+
+                                          I1 – I2 + I3 = 0 
+
+b)
+
+8I1 + 0I2 – 10I3 = 24
+
+0I1 + 4I2 + 10I3 = 26
+
+I1 – I2 + I3 = 0
+                                                       I1 = 62 / 19 = 3.26 A
+
+                                                       I2 = 66 / 19 = 3.473 A
+
+                                                       I3 = 4 / 19 = 0.21 A
+
+c)
+
+Vab = -(4) (3.47) = -13.89v
+
+25. Escriba las ecuaciones de malla para el circuito que se muestra en la figura 8-79 y encuentre las corrientes de lazo.
+
+![image](https://user-images.githubusercontent.com/85209614/125580516-1cebda1d-4aea-4149-b698-4eaa3c0f2626.png)
+
+-15v + 30I1 + 6(I2 – I2) = 0                             6(I2 – I1) – 5v + 20I2 = 0
+
+30I1 + 6I1 – 6I2 = 15                                    6I2 – 6I1 + 20I2 = 5
+
+36I1 – 6I2 = 15                                          -6I1 + 26I2 = 5
+
+                                     36I1 – 6I2 = 15 
+                                               
+                                     -6I1 + 26I2 = 5
+
+                     I1 = 7 / 5 = 0.467 A        ;         I2 = 0.3 A
+
+27. Utilice el análisis de malla para encontrar la corriente I2 en el circuito de la figura 8-81.
+
+![image](https://user-images.githubusercontent.com/85209614/125580907-35e41932-6cdb-4ca0-8b37-031546535692.png)
+
+-20.5v + 8.2I2 + 6.2I2 + 5(I2 – I3) + 10 = 0               -10v + 5(I3 – I2) + 4.7I3 = 0
+
+14.4I2 + 5I2 -5I3 = 10.5                                    5I3 - 5I2 +4.7I3 = 10
+
+19.4I2 – 5I3 = 10.5                                        -5I2 + 9.7I3 = 10 
+
+                                  19.4I2 – 5I3 = 10.5
+
+                                  -5I2 + 9.7I3 = 10
+
+I2 = -II15185 / 16318II ≈ -0.931 A
+
+I3 = II12325 / 8159II ≈ 1.511 A
+
 4. VIDEO
 
 5. CONCLUSIONES
