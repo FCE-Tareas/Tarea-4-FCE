@@ -22,6 +22,14 @@ CAPÍTULO VII
 
 ![image](https://user-images.githubusercontent.com/84390820/125562592-efad86d2-7652-442e-90eb-a4a0486c6510.png)
 
+CAPÍTULO VIII
+
+![image](https://user-images.githubusercontent.com/84390686/125584689-8459f090-f57a-4679-9c66-b329996158b3.png)
+
+![image](https://user-images.githubusercontent.com/84390686/125584773-cb921d16-ad96-4aad-ab95-a40527624b8a.png)
+
+![image](https://user-images.githubusercontent.com/84390686/125584799-ce8e25bc-65df-4234-8dc7-ca8ec046f5a5.png)
+
 3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
 EJERCICIOS CAPÍTULO VII
@@ -577,6 +585,230 @@ Vab = -(4) (3.47) = -13.89v
 I2 = -II15185 / 16318II ≈ -0.931 A
 
 I3 = II12325 / 8159II ≈ 1.511 A
+
+29. Utilice el análisis de malla para encontrar las corrientes de lazo en el circuito de la figura 8-84. Use sus resultados para determinar I y Vab.
+ 
+ ![image](https://user-images.githubusercontent.com/84390686/125584986-100aa59c-5614-4706-9b63-01d49e2fbc29.png)
+
+Lazo 1: -2v+(40+80)I1-80I2-8V=0
+
+Lazo 2: 12V+(60+80)I2-80I1+8V=0
+
+Reformulamos
+
+Lazo 1: 120I1-80I2=10V
+
+Lazo 2: -80I1 +140I2=-20V
+
+Despejar I1
+
+I1= -0,01923 A
+
+I1=-19,23 mA
+
+I2=-0,13185
+
+I3=I1+I2
+
+I3=-0,15108
+
+Calcular Vab
+
+Vab=60*I3+12
+
+Vab=-9,6+12
+
+Vab=2.93V
+
+31. Escriba las ecuaciones de malla para la red de la figura 8-86. Encuentre las corrientes de lazo con determinantes.
+ 
+![image](https://user-images.githubusercontent.com/84390686/125585091-3883b379-9723-424f-ae49-3a5090fc358b.png)
+
+Lazo 1: (3+1+6)I1-1I2-6I3+4V+2V=0
+
+Lazo 2: (3+4+1)I2-1I1-3I3-6V-4V=0
+
+Lazo 3: (3+6)I3-6I1-3I2-5V=0
+
+Reformulamos
+
+Lazo 1: 10I1-1I2-6I3=-6V
+
+Lazo 2: 8I2-1I1-3I3=10V
+
+Lazo 3: 9I3-6I1-3I2=5V
+
+Despejar I1,I2,I3 utilizando sistema de ecuaciones:
+
+I1= 0,495 A
+
+I2=1,879 A
+
+I3=1,512 A
+
+33. Convierta cada una de las redes de la figura 8-92 en su configuración Y equivalente.
+
+![image](https://user-images.githubusercontent.com/84390686/125585149-12badcec-ed80-4a4c-a80e-f5ce732c8be6.png)
+
+Los siguientes valores de resistores son:
+
+Ra= 270 Ω
+
+Rb= 90 Ω
+
+Rc= 30 Ω
+
+Al aplicar las ecuaciones se tiene los siguientes valores de resistores equivalentes en “Y”.
+
+R1=(30)(90)/30+90+270
+
+R1=2700/390
+
+R1=6,92 Ω
+
+R2=(30)(270)/30+90+270
+
+R2=8100/390
+
+R2=20,77 Ω
+
+R3=(90)(270)/30+90+270
+
+R3=24300/390
+
+
+R3=62,31 Ω
+
+35. Convierta cada una de las redes de la figura 8-93 en su configuración Y equivalente.
+
+![image](https://user-images.githubusercontent.com/84390686/125585248-af05e880-4ed8-4981-bab5-aba39bd4c488.png)
+
+Los siguientes valores de resistores son:
+
+Ra= 7,8 KΩ
+
+Rb= 5,6 KΩ
+
+Rc= 4,7 KΩ
+
+Al aplicar las ecuaciones se tiene los siguientes valores de resistores equivalentes en “Y”.
+
+R1=(5,6)(4,7)/7,8+5,6+4,7
+
+R1=26,32/18,1
+
+R1=1,45 KΩ
+
+R2=(7,8)(4,7)/7,8+5,6+4,7
+
+R2=36,66/18,1
+
+R2=2,02 KΩ
+
+R3=(5,6)(7,8)/7,8+5,6+4,7
+
+R3=43,68/18,1
+
+R3=2,41 KΩ
+
+37. Convierta cada una de las redes Y de la figura 8-94 en su configuracion 
+equivalente.
+
+![image](https://user-images.githubusercontent.com/84390686/125585317-4e6531a3-ea8c-40c7-9e5d-d5f08bde84af.png)
+
+Los siguientes valores de resistores son:
+
+R1= 10Ω
+
+R2= 30Ω
+
+R3= 20Ω
+
+Al aplicar las ecuaciones se tiene los siguientes valores de resistores equivalentes en “Y”.
+
+Ra=(10)(30)+(10)(20)+(30)(20)/10
+
+Ra=1100/10
+
+Ra=110 Ω
+
+Rb=(10)(30)+(10)(20)+(30)(20)/30
+
+Rb=1100/30
+
+Rb=36,7 Ω
+
+Rc=(10)(30)+(10)(20)+(30)(20)/20
+
+Rc=1100/20
+
+Rc=55 Ω
+
+39. Convierta cada una de las redes Y de la figura 8-94 en su configuración equivalente.
+
+![image](https://user-images.githubusercontent.com/84390686/125585382-a5f58af4-0138-4dc7-814d-ed6a4efea0a4.png)
+
+Los siguientes valores de resistores son:
+
+R1= 470KΩ
+
+R2= 220KΩ
+
+R3= 390KΩ
+
+Al aplicar las ecuaciones se tiene los siguientes valores de resistores equivalentes en “Y”.
+
+Ra=(470)(220)+(470)(390)+(220)(390)/470
+
+Ra=372500/470
+
+Ra=793 KΩ
+
+Rb=(470)(220)+(470)(390)+(220)(390)/220
+
+Rb=372500/220
+
+Rb=1693 KΩ
+
+Rc=(470)(220)+(470)(390)+(220)(390)/390
+
+Rc=372500/390
+
+Rc=955 KΩ
+
+41. Convierta cada una de las redes Y de la figura 8-95 en su configuración equivalente.
+ 
+![image](https://user-images.githubusercontent.com/84390686/125585436-2e0853bb-7f3c-40ab-a377-c0bb42029251.png)
+
+Los siguientes valores de resistores son:
+
+R1= 24Ω
+
+R2= 48Ω
+
+R3= 96Ω
+
+Al aplicar las ecuaciones se tiene los siguientes valores de resistores equivalentes en “Y”.
+
+Ra=(24)(48)+(24)(96)+(48)(96)/24
+
+Ra=8064/24
+
+Ra=336 Ω
+
+Rb=(24)(48)+(24)(96)+(48)(96)/48
+
+Rb=8064/48
+
+Rb=168 Ω
+
+Rc=(24)(48)+(24)(96)+(48)(96)/96
+
+Rc=8064/96
+
+Rc=84 Ω
+
+
 
 4. VIDEO
 
