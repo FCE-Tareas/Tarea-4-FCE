@@ -812,7 +812,11 @@ Rc=84 Ω
 
 4. VIDEO
 
+- https://youtu.be/cGdELaqLFMY
+
 5. CONCLUSIONES
+
+- Las redes puente se usa en un equipo de medición electrónico esto para medir con precisión le resistencia en circuitos de cd y cantidades similares en circuitos de ca.
 
 6. BIBLIOGRAFIA
 
