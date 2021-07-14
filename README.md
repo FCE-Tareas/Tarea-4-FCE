@@ -816,9 +816,12 @@ Rc=84 Ω
 
 5. CONCLUSIONES
 
+- Los circuios eléctricos en aplicaciones reales de la electrónica se complementan con circuitos en serie y en paralelo entre sí, por lo que debemos utilizar la simplificación de circuitos para realizar los mismos análisis de forma mas simple.
+
 - Las redes puente se usa en un equipo de medición electrónico esto para medir con precisión le resistencia en circuitos de cd y cantidades similares en circuitos de ca.
 
 6. BIBLIOGRAFIA
 
+- Wikipedia.(2018).Circuitos en serie y paraleo. from https://es.wikipedia.org/wiki/Circuitos_en_serie_y_en_paralelo
 
 
