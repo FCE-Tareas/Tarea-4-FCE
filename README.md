@@ -349,6 +349,8 @@ Efecto de carga I2=(9 -7.4)/9*100%=18 %
 
 Efecto de carga I3=(15.6 -12.2)/15.6*100%=22.3%
 
+
+
 EJERCICIOS CAPÍTULO VIII
 
 1.  Encuentre el voltaje VS para el circuito de la figura 8-64.
