@@ -818,6 +818,8 @@ Rc=84 Ω
 
 - Los circuios eléctricos en aplicaciones reales de la electrónica se complementan con circuitos en serie y en paralelo entre sí, por lo que debemos utilizar la simplificación de circuitos para realizar los mismos análisis de forma mas simple.
 
+- En la interpretación e identificación de los circuitos serie - paralelo , se puede visualizar los elementos dentro del circuito para realizar los cálculos algebraicos respectivos para así poder obtener un resistencia equivalente y gracias a ello obtener valores de corriente y voltaje respectivamente.
+
 - Las redes puente se usa en un equipo de medición electrónico esto para medir con precisión le resistencia en circuitos de cd y cantidades similares en circuitos de ca.
 
 6. BIBLIOGRAFIA
