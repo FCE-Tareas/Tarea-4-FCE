@@ -13,3 +13,10 @@ Específicos
 * Estudiar la relación que existe entre las diferentes magnitudes dentro de un circuito eléctrico.
 * Simplificar correctamente un circuito serie - paralelo para utilizar la Ley de Kirchhoff en el análisis de circuitos y ver el comportamiento de su funcionamiento.
 * Interpretar la relación entre voltaje y corriente en un circuito con elementos pasivos, las convenciones de referencia, potencia, enegría y eficiencia.
+
+2. MARCO TEÓRICO
+
+CAPÍTULO VII
+
+![image](https://user-images.githubusercontent.com/84390820/125562592-efad86d2-7652-442e-90eb-a4a0486c6510.png)
+
